@@ -1,2 +1,2 @@
 # langchain
-This repo is made for my langchain and LLM model practice/projects
+This repo is made for my langchain and LLMs model practice/projects
