@@ -75,6 +75,6 @@ def get_few_shot_db_chain():
     return chain
 
 
-if __name__ == "__main__":
-    chain = get_few_shot_db_chain()
-    chain.run("How much is the total price of the inventory for all S-size t-shirts?")
+# if __name__ == "__main__":
+#     chain = get_few_shot_db_chain()
+#     chain.run("How much is the total price of the inventory for all S-size t-shirts?")

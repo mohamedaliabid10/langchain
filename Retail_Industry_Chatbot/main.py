@@ -1,9 +1,13 @@
 from langchain_code import get_few_shot_db_chain
-from streamlit import st
+import streamlit as st
 
-st.title("Retail chatbot")
+st.title("Retail chatbot 👕")
 
 question = st.text_input("Question : ")
 
 if question:
-    pass
+    chain = get_few_shot_db_chain()
+    response = chain.run(question)
+
+    st.header("Answer")
+    st.write(response)
